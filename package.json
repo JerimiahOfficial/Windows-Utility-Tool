@@ -1,0 +1,29 @@
+{
+    "name": "windows-utility-tool",
+    "version": "1.0.0",
+    "description": "A utility tool for windows.",
+    "main": "source/index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JerimiahOfficial/Windows-Utility-Tool.git"
+    },
+    "author": "Jerimiah",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JerimiahOfficial/Windows-Utility-Tool/issues"
+    },
+    "homepage": "https://github.com/JerimiahOfficial/Windows-Utility-Tool#readme",
+    "devDependencies": {
+        "eslint": "^8.27.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0"
+    },
+    "dependencies": {
+        "drivelist": "^11.0.4",
+        "electron": "^21.2.3",
+        "electron-squirrel-startup": "^1.0.0"
+    }
+}

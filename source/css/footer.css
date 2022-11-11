@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+
+    background-color: rgb(32, 32, 32);
+    border-radius: 0px 0px 8px 8px;
+
+    height: 30px;
+}

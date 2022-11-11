@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(24, 24, 24);
+
+    font-size: 12px;
+    padding: 10px;
+}
+
+main input[type='button'] {
+    border: none;
+    border-radius: 8px;
+
+    height: 30px;
+
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+}
+
+main input[type='button']:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+main input[type='button']:active {
+    background-color: rgb(48, 48, 48);
+}
+
+main input[type='button']:first-of-type {
+    margin-bottom: 5px;
+}
+
+main input[type='button']:last-of-type {
+    margin-top: 5px;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}

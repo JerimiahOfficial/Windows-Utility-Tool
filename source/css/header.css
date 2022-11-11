@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+
+    -webkit-app-region: drag;
+    overflow: hidden;
+
+    border-radius: 8px 8px 0px 0px;
+
+    height: 30px;
+}
+
+header p {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+
+    padding: 0;
+}
+
+header input {
+    width: 30px;
+    height: 30px;
+
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+
+    border: none;
+
+    -webkit-app-region: none;
+}
+
+header input:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+header input:active {
+    background-color: rgb(48, 48, 48);
+}
+
+header p + input {
+    margin-left: auto;
+}
